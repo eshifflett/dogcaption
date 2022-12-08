@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Dog Caption Creator</title>
+	<style>
+		html {
+			font-size: 18px;
+			max-width: 1080px;
+			max-height: 100%;
+		  	margin: auto;
+		}
+
+		body {
+			background-color: #FBFAF5;
+		}
+
+		#outerDiv {
+			border: 5px solid #555;
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		p {
+			margin: 8px;
+            text-align: center;
+		}
+
+		img {
+			display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+			border: 5px solid #555;
+		}
+	</style>
+</head>
+
+<body>
+    <div id="outerDiv">
+        <h1>Thank you for submitting your caption!</h1>
+        <img src="<%- imgSrc %>">
+        <p class="centerer">"<%- caption %>" - <%- name %></p>
+        <h1><a href="/">Return to home</a></h1>
+    </div>
+</body>

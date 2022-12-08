@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Dog Caption Creator</title>
+	<style>
+		html {
+			font-size: 18px;
+			max-width: 1080px;
+			max-height: 100%;
+		  	margin: auto;
+		}
+
+		body {
+			background-color: #FBFAF5;
+		}
+
+		#outerDiv {
+			border: 5px solid #555;
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		p {
+			margin: 8px;
+		}
+
+		img {
+			display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+			border: 5px solid #555;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="outerDiv">
+		<h1>Welcome to The Dog Caption Creator!</h1>
+		<p>We aim to brighten your day by letting you explore the cutest dog photos
+		 	and come up with random captions to entertain other users! You can also
+		 	simply view others captions if you wish.</p>
+		<img src="<%- imgSrc %>">
+		<h2><a href="caption">Caption a dog!</a></h2>
+		<h2><a href="viewCaption">View a caption!</a></h2>
+	</div>
+</body>
